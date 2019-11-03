@@ -1,0 +1,22 @@
+.add-item {
+    padding: 10px 0;
+    display: flex;
+}
+
+.add-item input {
+    border-radius: 5px;
+    flex-grow: 1;
+    padding-left: 10px;
+    font-size: 20px;
+}
+
+.add-item input::placeholder {
+    font-family: Arial;
+}
+
+.add-item button {
+    margin-left: 10px;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 5px 15px;
+}

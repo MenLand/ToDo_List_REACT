@@ -1,0 +1,30 @@
+.item {
+    display: flex;
+    padding: 5px;
+    align-items: center;
+    box-shadow: 1px 1px 4px rgb(35, 12, 99);
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+.item button {
+    border-radius: 50%;
+    font-size: 20px;
+    margin-left: auto;
+}
+
+.item span {
+    margin: 0 10px;
+}
+
+.item strong::after {
+    content: ' ';
+} 
+
+.item.completed span {    
+    text-decoration: line-through;
+}
+
+button:focus {
+    outline: none;
+}
